@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day41</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <body>
+        <header>
+            <h1>TTY</h1>
+
+            <nav>
+                <a href="#">HERO</a>
+                <a href="#profile">PROFILE</a>
+                <a href="#goal">GOAL</a>
+                <a href="#hobby">HOBBY</a>
+                <a href="#contact">CONTACT</a>
+            </nav>
+        </header>
+
+        <section class="hero">
+
+            <h2>TATSUYA'S website</h2>
+
+            <p>
+                HTML/CSS/WEB DESIGN
+            </p>
+
+            <button>VIEW MORE</button>
+        </section>
+
+        <section class="profile" id="profile">
+
+            <h2>PROFILE</h2>
+
+            <div class="profile-content">
+
+                <div class="profile-text">
+                    <h3>TATSUYA</h3>
+                    <p>cadオペ</p>
+                    <p>html/cssを勉強中です。</p>
+                    <p>ランニングや筋トレもしています。</p>
+                </div>
+
+                <a href="#profile-detail" class="profile-button">詳しくみる</a>
+
+            </div>
+        </section>
+
+        <section class="profile-detail" id="profile-detail">
+
+            <h2>PROFILE DETAIL</h2>
+
+            <div class="profile-detail-box">
+
+                <h3>TATSUYA</h3>
+
+                <p>CADオペレーターとして3DCADを勉強しています。</p>
+
+                <p>現在はHTML/CSSを学び、Web制作にも挑戦しています。</p>
+
+                <p>趣味はランニング、筋トレ、Web学習です。</p>
+
+            </div>
+
+        </section>
+
+        <section class="goal" id="goal">
+            <h2>GOAL</h2>
+
+            <div class="goal-cards">
+
+            <div class="goal-card">
+                <span>01</span>
+                <h3>WEB</h3>
+                <p>HTML/CSSを学んで<br>web制作ができるようになる。</p>
+            </div>
+
+            <div class="goal-card">
+                <span>02</span>
+                <h3>CAD</h3>
+                <p>3DCADのスキルを高めて<br>仕事の幅を広げる。</p>
+            </div>
+
+            <div class="goal-card">
+                <span>03</span>
+                <h3>FREELANCE</h3>
+                <p>将来的にwebを中心に<br>フリーランスを目指す。</p>
+            </div>
+
+            </div>
+        </section>
+
+        <section class="hobby" id="hobby">
+
+            <h2>HOBBY</h2>
+
+            <div class="hobby-cards">
+
+             <div class="hobby-card">
+                <span>01</span>
+                <img src="images/profile.jpg" alt="running">
+
+                <div class="hobby-text">
+                    <h3>RUNNING</h3>
+                    <p>5kmを中心にランニングしています。</p>
+                </div>
+
+             </div>
+
+             <div class="hobby-card">
+                <span>02</span>
+                <img src="images/REGGAE-2911.jpg" alt="training">
+
+                <div class="hobby-text">
+                    <h3>TRAINING</h3>
+                    <p>筋トレで体力づくりをしています。</p>
+                </div>
+             </div>
+
+             <div class="hobby-card">
+                <span>03</span>
+                <img src="images/zaP2_G6376872W.jpg" alt="study">
+
+                <div class="hobby-text">
+                    <h3>WEB STUDY</h3>
+                    <p>HTML/CSSを勉強しています。</p>
+                </div>
+             </div>
+
+            </div>
+        </section>
+
+        <section class="service" id="service">
+            <h2>SERVICE</h2>
+        
+            <div class="service-cards">
+                <div class="service-card">
+                    <h3>WEB DESIGN</h3>
+                    <p>見やすく使いやすいWEBサイトを制作します。</p>
+                </div>
+
+                <div class="service-card">
+                    <h3>CODING</h3>
+                    <p>HTML/CSSを使ってWEBページを作ります</p>
+                </div>
+
+                <div class="service-card">
+                    <h3>RESPONSIVE</h3>
+                    <p>スマホでも見やすいサイトを目指します</p>
+                </div>
+            </div>
+        </section> 
+        
+        <section class="contact" id="contact">
+            <h2>CONTACT</h2>
+            <p>お問い合わせはこちらからお願いします</p>
+
+            <form class="contact-form">
+                <label for="name">お名前</label>
+                <input type="text" id="name" placeholder="お名前を入力">
+
+                <label for="email">メールアドレス</label>
+                <input type="email" id="email" placeholder="メールアドレスを入力">
+
+                <label for="message">お問い合わせ内容</label>
+                <textarea id="message" rows="5" placeholder="お問い合わせ内容を入力"></textarea>
+
+                <button type="submit">送信する</button>
+            </form>
+        </section>
+
+        <footer class="footer">
+            <nav class="footer-nav">
+                <a href="#">HOME</a>
+                <a href="#profile">PROFILE</a>
+                <a href="#service">SERVICE</a>
+                <a href="#contact">CONTACT</a>
+            </nav>
+
+            <p>&copy;2026 TTY. ALL Right Reserved.</p>
+          
+        </footer>
+    </body>
+</html>

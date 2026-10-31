@@ -1,0 +1,488 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #0d1117;
+    color: #f5f5f5;
+    margin: 30px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+h1{
+    text-align: center;
+    color: #00e5ff;
+}
+
+header{
+    background-color: #0d1117;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 50px;
+
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    display: inline-block;
+    color: #f5f5f5;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #00e5ff;
+    transform: translateY(-3px);
+}
+
+.hero{
+    min-height: 400px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #111827;
+    color: white;
+}
+
+.hero h2{
+    font-size: 36px;
+}
+
+.hero button{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero button:hover{
+    color: brown;
+    transform: translateY(-3px);
+}
+
+.profile{
+    background-color:#161b22;
+    padding:80px 20px;
+    text-align: center;
+}
+
+.profile h2{
+    color: #00e5ff;
+    margin-bottom: 40px;
+}
+
+.profile-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.profile-text{
+    border: 2px solid green;
+    border-radius: 20px;
+    padding: 30px;
+    width: 300px;
+}
+
+.profile-text h3{
+    color: blue;
+}
+
+.profile-text p{
+    color: whitesmoke;
+}
+
+.profile-button{
+    display: inline-block;
+    padding: 20px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    background-color: aqua;
+    box-shadow: 10px 5px 10px yellow;
+}
+
+.profile-button:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px green;
+}
+
+.profile-detail{
+    background-color: #0d1117;
+    padding: 60px 20px;
+    text-align: center;
+}  
+
+.profile-detail h2{
+    color: #00e5ff;
+    margin-bottom: 40px;
+}
+
+.profile-detail-box{
+    width: 500px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px solid aqua;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px gray;
+}
+
+.goal{
+    background-color: #161b22;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.goal h2{
+    color: #00e5ff;
+    margin-bottom: 40px;
+}
+
+.goal-cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.goal-card{
+    width: 300px;
+    padding: 30px;
+    border: 2px solid yellow;
+    border-radius: 20px;
+
+    transition: 0.6s;
+    box-shadow: 10px 10px 20px gray;
+
+    position: relative;
+}
+
+.goal-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 15px 15px 20px red;
+}
+
+.goal-card span{
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    color: purple;
+}
+
+.hobby{
+    background-color: #0d1117;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hobby h2{
+    color: #00e5ff;
+    margin-bottom: 40px;
+}
+
+.hobby-cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.hobby-card{
+   width: 300px;
+   min-height: 450px;
+   border: 1px solid #30363d;
+   border-radius: 12px;
+   overflow: hidden;
+   position: relative;
+   transition: transform 0.3s,box-shadow 0.3s;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1);
+    background-color: #111827;
+}
+
+.hobby-card:hover{
+    transform: translate(-5px);
+    box-shadow: 0 8px 20px rgba(0, 229, 255, 0.15);
+}
+
+
+.hobby-text{
+    padding: 25px;
+}
+
+.hobby-text h3{
+    color: #00e5ff;
+}
+.hobby-text p{
+    color: black;
+}
+.hobby-card span{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.hobby-card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.35s;
+}
+
+.hobby-card img:hover{
+    transform: scale(1.05);
+}
+
+.service{
+    padding: 100px 20px;
+    text-align: center;
+    background-color: #161b22;
+}
+
+.service h2{
+    color: #00e5ff;
+    margin-bottom: 40px;
+}
+
+.service-cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.service-card{
+    width: 250px;
+    padding: 25px;
+    border: 2px solid aqua;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px gray;
+    transition: 0.3s;
+}
+
+.service-card:hover{
+    transform: translateY(-10px);
+}
+
+   
+
+@media(max-width: 660px){
+    .hobby-cards{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .hobby-card{
+        width: 90%;
+    }
+
+    .hobby-card img{
+        height: 200px;
+    }
+
+    .hobby-text{
+        padding: 20px;
+    }
+
+   header{
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 10px;
+   }
+
+   header h1{
+    margin: 0;
+   }
+
+   nav{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+   }
+
+   nav a{
+    font-size: 14px;
+   }
+   
+   .hero h2{
+    font-size: 28px;
+   }
+
+   .hero p{
+    font-size: 26px;
+   }
+
+   .profile h2,
+   .profile-detail h2,
+   .goal h2,
+   .hobby h2,
+   .service h2{
+    font-size: 24px;
+   }
+
+   .profile-text p,
+   .profile-detail-box p,
+   .goal-card p,
+   .hobby-text p,
+   .service-card p{
+    font-size: 14px;
+    line-height: 1.8;
+   }
+
+   .profile,
+    .profile-detail,
+    .goal,
+    .hobby,
+    .service {
+        padding: 50px 15px;
+    }
+
+    .profile h2,
+    .profile-detail h2,
+    .goal h2,
+    .hobby h2,
+    .service h2 {
+        margin-bottom: 25px;
+    }
+
+    .service .service-cards{
+        flex-direction: column;
+        align-items: center;
+       gap: 25px;
+    }
+
+    .service .service-card{
+        width: 90%;
+        max-width: 350px;
+        box-sizing: border-box;
+    }
+}
+
+.contact{
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #0d1117;
+}
+
+.contact h2{
+    color: #00e5ff;
+    margin-bottom: 20px;
+}
+
+.contact p{
+    color: white;
+    margin-bottom: 35px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction:column;
+    gap: 12px;
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 2px solid #30363d;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #161b22;
+    color: #f5f5f5;
+}
+
+.contact-form textarea{
+    resize: vertical;
+}
+
+.contact-form button{
+    padding: 14px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: aqua;
+    color: #0d1117;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 1.0s, background-color 0.2s;
+}
+
+.contact-form button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px gray;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    outline: 2px solid #00e5ff;
+    border-color:aqua;
+}
+
+.contact-form button:active{
+    transform: scale(0.95);
+    background-color: orange;
+}
+
+.footer{
+    padding: 35px 20px;
+    text-align: center;
+    background-color: #05070a;
+    color: white;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.footer-nav a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-nav a:hover{
+    color: aqua;
+}
+
+.footer p{
+    font-size: 13px;
+    margin: 0;
+}
+
+.profile-text,
+.profile-detail-box,
+.goal-card,
+.service-card {
+    background-color: #111827;
+    color: #f5f5f5;
+    border-color: #30363d;
+}
+
+
+
