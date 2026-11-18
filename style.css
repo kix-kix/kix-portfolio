@@ -1,6 +1,11 @@
+/*=====================================
+        1.共通設定
+　=====================================*/
+
 html{
     scroll-behavior: smooth;
 }
+
 
 body{
     font-family: sans-serif;
@@ -11,10 +16,15 @@ body{
     line-height: 1.8;
 }
 
+
 h1{
     text-align: center;
     color: #00e5ff;
 }
+
+/*=====================================
+        2.HEADER
+　=====================================*/
 
 header{
     background-color: #0d1117;
@@ -41,6 +51,10 @@ nav a:hover{
     color: #00e5ff;
     transform: translateY(-3px);
 }
+
+/*=====================================
+        3.HERO
+　=====================================*/
 
 .hero{
     min-height: 400px;
@@ -74,6 +88,10 @@ nav a:hover{
     transform: translateY(-3px);
 }
 
+/*=====================================
+        4.PROFILE
+　=====================================*/
+
 .profile{
     background-color:#161b22;
     padding:80px 20px;
@@ -93,14 +111,14 @@ nav a:hover{
 }
 
 .profile-text{
-    border: 2px solid green;
+    border: 2px solid #30363d;
     border-radius: 20px;
     padding: 30px;
     width: 300px;
 }
 
 .profile-text h3{
-    color: blue;
+    color: #00e5ff;
 }
 
 .profile-text p{
@@ -144,6 +162,10 @@ nav a:hover{
     box-shadow: 10px 10px 20px gray;
 }
 
+/*=====================================
+        5.GOAL
+　=====================================*/
+
 .goal{
     background-color: #161b22;
     padding: 80px 20px;
@@ -185,6 +207,10 @@ nav a:hover{
     color: purple;
 }
 
+/*=====================================
+        6.HOBBY
+　=====================================*/
+
 .hobby{
     background-color: #0d1117;
     padding: 80px 20px;
@@ -216,7 +242,7 @@ nav a:hover{
 }
 
 .hobby-card:hover{
-    transform: translate(-5px);
+    transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 229, 255, 0.15);
 }
 
@@ -229,7 +255,7 @@ nav a:hover{
     color: #00e5ff;
 }
 .hobby-text p{
-    color: black;
+    color: #f5f5f5;
 }
 .hobby-card span{
     position: absolute;
@@ -248,6 +274,10 @@ nav a:hover{
 .hobby-card img:hover{
     transform: scale(1.05);
 }
+
+/*=====================================
+        7.SERVICE
+　=====================================*/
 
 .service{
     padding: 100px 20px;
@@ -280,7 +310,9 @@ nav a:hover{
     transform: translateY(-10px);
 }
 
-   
+   /*=====================================
+        10.レスポンシブ対応
+　=====================================*/
 
 @media(max-width: 660px){
     .hobby-cards{
@@ -375,6 +407,10 @@ nav a:hover{
     }
 }
 
+/*=====================================
+        8.CONTACT
+　=====================================*/
+
 .contact{
     padding: 80px 20px;
     text-align: center;
@@ -445,6 +481,10 @@ nav a:hover{
     background-color: orange;
 }
 
+/*=====================================
+        9.FOOTER
+　=====================================*/
+
 .footer{
     padding: 35px 20px;
     text-align: center;
@@ -474,15 +514,3 @@ nav a:hover{
     font-size: 13px;
     margin: 0;
 }
-
-.profile-text,
-.profile-detail-box,
-.goal-card,
-.service-card {
-    background-color: #111827;
-    color: #f5f5f5;
-    border-color: #30363d;
-}
-
-
-
